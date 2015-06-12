@@ -1,0 +1,164 @@
+/*Universal elements – mobile first*/
+
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+	line-height: 1.4;
+	cursor: default;
+	background-color: #FEFEFE;
+}
+
+em{
+	font-style: italic;
+}
+
+p{
+	margin: 1em 0;
+	font-family: 'Tienne', serif;
+	color: #787878;
+	font-size: 1.5em;
+}
+
+p a{
+	font-style: italic;
+	color: #113746;
+}
+
+p a:hover{
+	color: #A2D4E7;
+}
+
+p a:active{
+	color: #3198C0;
+}
+
+h1{
+	color: white;
+	margin: 0;
+	padding: 10% 8%;
+	font-family: 'Arial', sans-serif; 
+	font-weight: 700;
+	text-align: center;
+	font-size: 3.8em;
+	text-transform: uppercase;
+}
+
+h2,
+h2 a{
+	font-family: 'Arial', sans-serif; 
+	font-weight: 700;
+	font-size: 1.75em;
+	margin-top: 1em;
+	text-decoration: none;
+	color: #113746;
+}
+
+/*Page header – iphone*/
+
+header{
+	background-color: #113746;
+}
+
+#introduction{
+	border-bottom: 1px dashed #5F5F5F;
+}
+
+/*Main article – iPhone first*/
+
+#sections{ 
+	background-color:#FEFEFE;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.links{
+	padding: 4% 8%;
+	width: 84%;
+}
+
+.frame{
+	margin: 0 8%;
+	padding: 8% 0;
+	width: 84%;
+	background-color:#FEFEFE;
+}
+
+/*Footer - iPhone*/
+
+footer{
+	background-color:#113746;
+	padding: 4% 8%;
+	width: 84%;
+}
+
+footer p{
+	font-family: 'Arial', sans-serif; 
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+/*break points for mid-size screens*/
+
+@media screen and (min-width: 566px){
+
+
+p{
+	margin: 15px 0;
+}
+
+h1{
+	margin: 0;
+	padding: 10% 4%;
+}
+
+/*Page header*/
+
+/*Main article*/
+#sections{ 
+	background-color:#FEFEFE;
+	margin: 0 auto;
+}
+
+.links{
+	width: 475px;
+	margin: 0 auto;
+	padding: 23px 45px;
+}
+
+.frame{
+	width: 475px;
+	margin: 10px auto;
+	padding: 30px 0;
+	background-color:#FEFEFE;
+}
+
+/*Footer*/
+
+footer{
+	margin: 0 auto;
+	padding: 23px 45px;
+	width: 475px;
+}
+
+/*break point for desktops*/
+
+@media screen and (min-width: 800px){
+
+body{
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+h1{
+	margin: 0;
+	padding: 10% 4%;
+}
+
+/*Content widths*/
+
+.links,
+.frame,
+footer{
+	width: 625px;
+}
