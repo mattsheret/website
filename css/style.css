@@ -14,7 +14,7 @@ em{
 }
 
 p, ul{
-	margin: 0.5em 0;
+	margin: 1em 0;
 	font-family: 'Tienne', serif;
 	color: #787878;
 	font-size: 1.5em;
@@ -45,37 +45,39 @@ h1{
 	color: white;
 	margin: 0;
 	padding: 6% 8%;
-	font-family: 'Arial', sans-serif;
+	font-family: 'Arial', sans-serif; 
 	font-weight: 700;
-	text-align: left;
-	font-size: 3em;
+	text-align: center;
+	font-size: 3.8em;
+	text-transform: uppercase;
 	text-decoration: none;
 }
 
 h2,
 h2 a{
-	font-family: 'Tienne', serif;
+	font-family: 'Arial', sans-serif; 
 	font-weight: 700;
-	font-size: 2.25em;
+	font-size: 2.5em;
 	text-decoration: none;
 	color: #113746;
 }
 
 h3,
 h3 a{
-	font-family: 'Tienne', serif;
+	font-family: 'Tienne', serif; 
 	font-weight: 700;
 	font-size: 1.75em;
-	margin: 0.5em 0;
+	margin-top: 1em;
 	text-decoration: none;
 	color: #113746;
 }
 
 .footertext{
 	color: #113746;
-	font-family: 'Tienne', serif;
+	font-family: 'Arial', sans-serif; 
 	font-weight: 700;
 	text-align: center;
+	text-transform: uppercase;
 	padding: 15px 0;
 	margin: 0;
 }
@@ -97,7 +99,6 @@ img{
 
 header{
 	background-color: #113746;
-	padding: 6% 8%;
 }
 
 
@@ -144,9 +145,8 @@ p, ul{
 }
 
 h1{
-	margin: 0 auto;
-	padding: 30px 0;
-	width: 475px;
+	margin: 0;
+	padding: 6% 4%;
 }
 
 /*Page header*/
@@ -181,13 +181,13 @@ body{
 }
 
 h1{
-	padding: 6% 0;
+	margin: 0;
+	padding: 6% 4%;
 }
 
 /*Content widths*/
 
 .frame,
-footer,
-h1{
+footer{
 	width: 625px;
 }
