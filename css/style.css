@@ -20,6 +20,11 @@ p, ul{
 	font-size: 1em;
 }
 
+ul{
+	list-style-type: disc;
+	margin-left: 1em;
+}
+
 h1 a{
 	color: #09b57f;
 	text-decoration: none;
@@ -136,8 +141,12 @@ footer{
 @media screen and (min-width: 566px){
 
 
-p, ul{
+p{
 	margin: 15px 0;
+}
+
+ul{
+	margin-left: 1em;
 }
 
 h1{
