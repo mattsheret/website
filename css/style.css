@@ -1,139 +1,86 @@
+/*
+Style references:
+
+Body = 'Tienne', serif;
+Headers = 'Alegreya Sans', sans-serif; font-weight: 700 +bold italic
+*/
+
 /*Universal elements – mobile first*/
 
 body{
 	padding: 0;
 	margin: 0;
-	font-size: 15px;
-	line-height: 1.3;
+	font-size: 10px;
+	line-height: 1.4;
 	cursor: default;
-	background-color: #FEFEFE;
+	background-color: #2e3532;
 }
 
 em{
 	font-style: italic;
 }
 
-p, ul{
+p{
 	margin: 1em 0;
 	font-family: 'Tienne', serif;
-	color: #5f5f5f;
-	font-size: 1em;
+	color: #F8DDA4;
+	font-size: 1.5em;
 }
 
-ul{
-	list-style-type: disc;
-	margin-left: 1em;
+a{
+	color: #D45113;
 }
 
+h1,
 h1 a{
-	color: #09b57f;
-	text-decoration: none;
-}
-
-h1 a:hover{
-	color: #2ff5b7;
-}
-
-ul li a, p a{
-	color: #09b57f;
-}
-
-p a:hover{
-	color: #2ff5b7;
-}
-
-p a:active{
-	color: #09b546;
-}
-
-h1{
-	color: #09b57f;
-	margin: 0;
-	padding: 6% 8% 3% 8%;
 	font-family: 'Tienne', serif;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 2.5em;
+	margin-top: 1em;
 	text-decoration: none;
+	color: #D45113;
 }
 
 h2,
 h2 a{
 	font-family: 'Tienne', serif;
-	font-weight: 700;
-	font-size: 1.4em;
-	text-decoration: none;
-	color: #09b57f;
-}
-
-h3,
-h3 a{
-	font-family: 'Tienne', serif;
-	font-weight: 700;
-	font-size: 1.2em;
+	font-size: 1.75em;
 	margin-top: 1em;
 	text-decoration: none;
-	color: #09b57f;
+	color: #D45113;
 }
-
-.footertext{
-	color: #5f5f5f;
-	font-family: 'Tienne', serif;
-	font-weight: 700;
-	text-align: center;
-	padding: 15px 0;
-	margin: 0;
-}
-
-.footertext a{
-	text-decoration: none;
-}
-
-img{
-	width: 100%;
-	padding: 1em 0;
-}
-
-#contactcontent{
-	text-align: center;
-}
-
-/*Page header – iphone*/
 
 header{
-	background-color: #FEFEFE;
+	background-color: #F8DDA4;
 }
 
+#introduction{
+	border-bottom: 1px dashed #F8DDA4;
+}
 
 /*Main article – iPhone first*/
 
+#story{
+	background-color:#2e3532;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#story img{
+	height: 426px;
+	margin-top: 1.5em;
+}
+
+.memory{
+	padding: 4% 8%;
+	width: 84%;
+}
+
 .frame{
 	margin: 0 8%;
+	padding: 8% 0;
 	width: 84%;
-}
-
-/*Video*/
-.media-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-
-}
-
-.media-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/*Footer - iPhone*/
-
-footer{
-	margin: 0 auto;
-	width: 84%;
+	background-color:#2e3532;
 }
 
 /*break points for mid-size screens*/
@@ -145,60 +92,45 @@ p{
 	margin: 15px 0;
 }
 
-ul{
-	margin-left: 1em;
-}
 
-h1{
-	margin: 0;
-	padding: 6% 0 3% 0;
-}
-
-/*Page header*/
-
-header{
-	width: 475px;
+/*Main article*/
+#story{
+	background-color:#2e3532;
 	margin: 0 auto;
 }
 
-/*Main article*/
+#story img{
+	width: 100%;
+	height: auto;
+	margin-top: 1.5em;
+}
+
+.memory{
+	width: 475px;
+	margin: 0 auto;
+	padding: 23px 45px;
+}
 
 .frame{
 	width: 475px;
-	margin: 0px auto;
-	background-color:#FEFEFE;
-}
-
-/*Footer*/
-
-footer{
-	margin: 0 auto;
-	padding: ;
+	margin: 10px auto;
+	padding: 30px 0;
+	background-color:#2e3532;
 }
 
 /*break point for desktops*/
 
 @media screen and (min-width: 800px){
 
-header{
-	background-color: #FEFEFE;
-}
-
 body{
-	font-size: 20px;
-	line-height: 1.3;
+	font-size: 13px;
+	line-height: 1.5;
 }
-
-h1{
-	margin: 0;
-	padding: 6% 0 3% 0;
-}
-
 
 /*Content widths*/
 
+.memory,
 .frame,
-header,
-footer{
-	width: 600px;
+#biog{
+	width: 625px;
 }
