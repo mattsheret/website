@@ -33,6 +33,10 @@ ul{
 a{
 	color: #FF6EAA;
 }
+  
+a:hover {
+	color: #783F8E;
+}
 
 h1,
 h1 a{
