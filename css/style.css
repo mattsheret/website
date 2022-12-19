@@ -13,22 +13,25 @@ body{
 	font-size: 10px;
 	line-height: 1.4;
 	cursor: default;
-	background-color: #2e3532;
+	background-color: #E8EBE4;
 }
 
 em{
 	font-style: italic;
 }
 
-p{
+p,
+ul{
 	margin: 1em 0;
 	font-family: 'Tienne', serif;
-	color: #F8DDA4;
+	color: #798071;
 	font-size: 1.5em;
+	list-style-type: disc;
+	list-style-position: inside;
 }
 
 a{
-	color: #D45113;
+	color: #FF6EAA;
 }
 
 h1,
@@ -36,9 +39,8 @@ h1 a{
 	font-family: 'Tienne', serif;
 	font-weight: 700;
 	font-size: 2.5em;
-	margin-top: 1em;
 	text-decoration: none;
-	color: #D45113;
+	color: #FF6EAA;
 }
 
 h2,
@@ -47,40 +49,34 @@ h2 a{
 	font-size: 1.75em;
 	margin-top: 1em;
 	text-decoration: none;
-	color: #D45113;
+	color: #FF6EAA;
 }
 
 header{
-	background-color: #F8DDA4;
-}
-
-#introduction{
-	border-bottom: 1px dashed #F8DDA4;
+	background-color: #798071;
 }
 
 /*Main article – iPhone first*/
 
-#story{
-	background-color:#2e3532;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-#story img{
-	height: 426px;
-	margin-top: 1.5em;
-}
-
-.memory{
-	padding: 4% 8%;
-	width: 84%;
-}
-
 .frame{
-	margin: 0 8%;
-	padding: 8% 0;
-	width: 84%;
-	background-color:#2e3532;
+	margin: 2%;
+	padding: 4% 8%;
+	width: 80%;
+	background-color:#E8EBE4;
+}
+
+#intro{
+	margin-top: 25px;
+}
+
+#available{
+	border-style: dashed;
+	border-width: 5px;
+	border-color: #FF6EAA;
+}
+
+#biog{
+	padding-top: 10px;
 }
 
 /*break points for mid-size screens*/
@@ -94,28 +90,13 @@ p{
 
 
 /*Main article*/
-#story{
-	background-color:#2e3532;
-	margin: 0 auto;
-}
-
-#story img{
-	width: 100%;
-	height: auto;
-	margin-top: 1.5em;
-}
-
-.memory{
-	width: 475px;
-	margin: 0 auto;
-	padding: 23px 45px;
-}
 
 .frame{
-	width: 475px;
+	width: 400px;
 	margin: 10px auto;
-	padding: 30px 0;
-	background-color:#2e3532;
+	padding: 10px 30px;
+	background-color:#E8EBE4;
+}
 }
 
 /*break point for desktops*/
@@ -129,8 +110,7 @@ body{
 
 /*Content widths*/
 
-.memory,
-.frame,
-#biog{
+.frame{
 	width: 625px;
+}
 }
