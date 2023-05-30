@@ -10,7 +10,7 @@ Headers = 'Alegreya Sans', sans-serif; font-weight: 700 +bold italic
 body{
 	padding: 0;
 	margin: 0;
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 1.4;
 	cursor: default;
 	background-color: #E8EBE4;
@@ -106,7 +106,7 @@ p{
 @media screen and (min-width: 800px){
 
 body{
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.5;
 }
 
