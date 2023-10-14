@@ -21,6 +21,11 @@ li{
 	font-size: 1.5em;
 }
 
+#poem p, 
+li{
+	margin: 0.5em 0;
+}
+
 ul{
 	list-style-type: circle;
 }
@@ -138,6 +143,11 @@ blockquote{
 p,
 li{
 	margin: 15px 0;
+}
+
+#poem p, 
+li{
+	margin: 7px 0;
 }
 
 h1{
