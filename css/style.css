@@ -87,8 +87,11 @@ header{
 	overflow: hidden;
 }
 
+#intro img,
+#poem img,
 #story img{
-	height: 426px;
+	width: 100%;
+	height: auto;
 	margin-top: 1.5em;
 }
 
@@ -167,6 +170,8 @@ header{
 	margin: 0 auto;
 }
 
+#intro img,
+#poem img,
 #story img{
 	width: 100%;
 	height: auto;
